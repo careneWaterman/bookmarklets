@@ -275,7 +275,7 @@ Full-Width Styles
   color: #fff;
   background: url('../images/blacktocat.png') #0090ff no-repeat 95% 50%;
   font-weight: 700;
-  box-shadow: 0 0 10px rgba(0,0,0,.5);
+  box-shadow: 0 0 10px #3b1900;
   border-bottom-left-radius: 2px;
   border-bottom-right-radius: 2px;
 }
@@ -293,7 +293,7 @@ Full-Width Styles
   color: #fff;
   font-size: 2.625em;
   font-weight: 700;
-  text-shadow: #111 0px 0px 10px;
+  text-shadow: #3b1900 0px 0px 10px;
 }
 
 #project_tagline {
@@ -301,7 +301,7 @@ Full-Width Styles
   font-size: 1.5em;
   font-weight: 300;
   background: none;
-  text-shadow: #111 0px 0px 10px;
+  text-shadow: #3b1900 0px 0px 10px;
 }
 
 #downloads {
