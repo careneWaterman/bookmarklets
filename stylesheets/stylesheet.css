@@ -413,13 +413,14 @@ Small Device Styles
 
 }
 
-/ *My custom styles*/
+/*My custom styles*/
 .booklet {
     background-color: #c0f0ff;
     color: black;
     padding: 0.5em;
     text-decoration: none;
 }
-.booklet:hover {
+#main_content .booklet:hover {
     background-color: #c0ffff;
+    color: black;
 }
