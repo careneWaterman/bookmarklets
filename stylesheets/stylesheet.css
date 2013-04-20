@@ -56,14 +56,14 @@ body {
   box-sizing: border-box;
   color:#373737;
   background: #212121;
-  font-size: 16px;
+  font-size: 1em;
   font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin: 10px 0;
+  margin: 0.625em 0;
   font-weight: 700;
   color:#222222;
   font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif;
@@ -71,34 +71,34 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 36px;
+  font-size: 2em;
   font-weight: 700;
 }
 
 h2 {
-  padding-bottom: 10px;
-  font-size: 32px;
+  padding-bottom: 0.625em;
+  font-size: 2em;
   background: url('../images/bg_hr.png') repeat-x bottom;
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 1.5em;
 }
 
 h4 {
-  font-size: 21px;
+  font-size: 1.31em;
 }
 
 h5 {
-  font-size: 18px;
+  font-size: 1.125em;
 }
 
 h6 {
-  font-size: 16px;
+  font-size: 1em;
 }
 
 p {
-  margin: 10px 0 15px 0;
+  margin: 0.625em 0 1em 0;
 }
 
 footer p {
@@ -149,7 +149,7 @@ pre, code {
   background-color: #fff;
 
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  font-size: 14px;
+  font-size: 1em;
 
   border-radius: 2px;
   -moz-border-radius: 2px;
@@ -161,14 +161,14 @@ pre, code {
 
 pre {
   width: 100%;
-  padding: 10px;
+  padding: 0.625em;
   box-shadow: 0 0 10px rgba(0,0,0,.1);
   overflow: auto;
 }
 
 code {
-  padding: 3px;
-  margin: 0 3px;
+  padding: 0.1875em;
+  margin: 0 0.1875em;
   box-shadow: 0 0 10px rgba(0,0,0,.1);
 }
 
@@ -179,23 +179,23 @@ pre code {
 
 blockquote {
   color: #666;
-  margin-bottom: 20px;
-  padding: 0 0 0 20px;
+  margin-bottom: 1.25em;
+  padding: 0 0 0 1.25em;
   border-left: 3px solid #bbb;
 }
 
 ul, ol, dl {
-  margin-bottom: 15px
+  margin-bottom: 1em
 }
 
 ul li {
   list-style: inside;
-  padding-left: 20px;
+  padding-left: 1.25em;
 }
 
 ol li {
   list-style: decimal inside;
-  padding-left: 20px;
+  padding-left: 1.25em;
 }
 
 dl dt {
@@ -203,12 +203,12 @@ dl dt {
 }
 
 dl dd {
-  padding-left: 20px;
+  padding-left: 1.25em;
   font-style: italic;
 }
 
 dl p {
-  padding-left: 20px;
+  padding-left: 1.25em;
   font-style: italic;
 }
 
@@ -221,25 +221,25 @@ hr {
 
 table {
   border: 1px solid #373737;
-  margin-bottom: 20px;
+  margin-bottom: 1.25em;
   text-align: left;
  }
 
 th {
   font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  padding: 10px;
+  padding: 0.625em;
   background: #373737;
   color: #fff;
  }
 
 td {
-  padding: 10px;
+  padding: 0.625em;
   border: 1px solid #373737;
  }
 
 form {
   background: #f2f2f2;
-  padding: 20px;
+  padding: 1.25em;
 }
 
 img {
@@ -293,14 +293,14 @@ Full-Width Styles
 #project_title {
   margin: 0;
   color: #fff;
-  font-size: 42px;
+  font-size: 2.625em;
   font-weight: 700;
   text-shadow: #111 0px 0px 10px;
 }
 
 #project_tagline {
   color: #fff;
-  font-size: 24px;
+  font-size: 1.5em;
   font-weight: 300;
   background: none;
   text-shadow: #111 0px 0px 10px;
@@ -352,7 +352,7 @@ Full-Width Styles
 }
 
 #main_content {
-  padding-top: 40px;
+  padding-top: 2.5em;
 }
 
 #footer_wrap {
@@ -367,7 +367,7 @@ Small Device Styles
 
 @media screen and (max-width: 480px) {
   body {
-    font-size:14px;
+    font-size:1em;
   }
 
   #downloads {
@@ -380,37 +380,37 @@ Small Device Styles
   }
 
   #project_title {
-  font-size: 32px;
+  font-size: 2em;
   }
 
   h1 {
-    font-size: 28px;
+    font-size: 1.75em;
   }
 
   h2 {
-    font-size: 24px;
+    font-size: 1.5em;
   }
 
   h3 {
-    font-size: 21px;
+    font-size: 1.3125em;
   }
 
   h4 {
-    font-size: 18px;
+    font-size: 1.125em;
   }
 
   h5 {
-    font-size: 14px;
+    font-size: 1em;
   }
 
   h6 {
-    font-size: 12px;
+    font-size: 1em;
   }
 
   code, pre {
     min-width: 320px;
     max-width: 480px;
-    font-size: 11px;
+    font-size: 1em;
   }
 
 }
