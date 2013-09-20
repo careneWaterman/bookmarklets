@@ -74,7 +74,7 @@
 
 <p>The bookmarklet is also dependent on the AO3 page structure, which I have no control over.  If it stops working for you, check back here for an update.</p>
 
-<p><a class = booklet href = "javascript:(function(){var work=document.getElementById(%22chapters%22);var paragraphs=work.getElementsByTagName(%22p%22);for(var i=0;i<paragraphs.length;i++){if(paragraphs[i].innerHTML==%22\%26\n\b\s\p\;%22){paragraphs[i].style.display=%22none%22}}})();" title = "drag to your toolbar">StripEmpties</a></p>
+<p><a class = booklet href = "javascript:(function(){var work=document.getElementById(%22chapters%22);var paragraphs=work.getElementsByTagName(%22p%22);for(var i=0;i<paragraphs.length;i++){if(paragraphs[i].innerHTML==%22%26nbsp%3B%22){paragraphs[i].style.display=%22none%22}}})();" title = "drag to your toolbar">StripEmpties</a></p>
 
 <p>This bookmarklet is designed to fix a bug that isn't really a bug.  Sometimes there are empty paragraphs in a story.  The archive puts them in there on purpose when it parses the uploaded text because that text contains extra white space.  They can't guess whether you meant to do it, they just go with it.</p>
 
