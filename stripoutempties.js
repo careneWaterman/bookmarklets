@@ -1,1 +1,1 @@
-javascript:(function(){var work=document.getElementById(%22chapters%22);var paragraphs=work.getElementsByTagName(%22p%22);for(var i=0;i<paragraphs.length;i++){if(paragraphs[i].innerHTML==%22&nbsp;%22){paragraphs[i].style.display=%22none%22}}})();
+javascript:(function(){var work=document.getElementById(%22chapters%22);var paragraphs=work.getElementsByTagName(%22p%22);for(var i=0;i<paragraphs.length;i++){if(paragraphs[i].innerHTML==%22&#37;26nbsp;%22){paragraphs[i].style.display=%22none%22}}})();
