@@ -426,6 +426,7 @@ Small Device Styles
     color: black;
     padding: 0.5em;
     text-decoration: none;
+    display: inline-block;
 }
 #main_content .booklet:hover {
     background-color: #FFDEC7;
