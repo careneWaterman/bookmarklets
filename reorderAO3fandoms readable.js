@@ -6,7 +6,7 @@ var fandomGroup = document.querySelectorAll('ol.fandom.index.group');
 if (fandomGroup[0] != undefined && fandomGroup[0].classList.contains('zzz-numerical') == false){
   /*add a marker class to the ol and get all the entry elements*/
   fandomGroup[0].classList.add('zzz-numerical');
-  var fandomList = document.querySelectorAll('.odd, .even');
+  var fandomList = document.querySelectorAll('.ul.tags.index.group > li');
   var numericalList = [];
 
   /*pull relevent portions from fandomList and fill numericalList setting the count as an integer*/
